@@ -261,9 +261,6 @@ html {
 }
 
 .cta-wrapper {
-  /* box */
-
-  /* Auto layout */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -361,6 +358,16 @@ min-width: 263px;
 max-width: 420px;
 background: linear-gradient(80.23deg, #E8652D -4.25%, #E82DD2 28.23%, #A650FF 69.35%, #009DFF 116.49%);
 border-radius: 16px;
+color: var(--content-text-white, #FFF);
+text-align: center;
+
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; 
+
+transition: 200ms ease-in;
 }
 
 .cta-form-button:hover{
